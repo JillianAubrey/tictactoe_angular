@@ -4,8 +4,7 @@ import { Component, Input } from '@angular/core';
   selector: 'app-square',
   template: `
     <button>{{ value }}</button>
-  `,
-  styles: []
+  `
 })
 export class SquareComponent {
 
