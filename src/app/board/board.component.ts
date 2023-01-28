@@ -60,6 +60,7 @@ export class BoardComponent {
       }
     }
 
+    if (!this.squares.some(e => !e)) return "Nobody";
     return null;
   }
 }
